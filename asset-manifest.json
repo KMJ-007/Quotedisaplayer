@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Quotedisaplayer/static/css/main.6502f497.css",
+    "main.js": "/Quotedisaplayer/static/js/main.5b586706.js",
+    "index.html": "/Quotedisaplayer/index.html",
+    "main.6502f497.css.map": "/Quotedisaplayer/static/css/main.6502f497.css.map",
+    "main.5b586706.js.map": "/Quotedisaplayer/static/js/main.5b586706.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6502f497.css",
+    "static/js/main.5b586706.js"
+  ]
+}
