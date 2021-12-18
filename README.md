@@ -4,7 +4,7 @@ This project is my first React project
 
 you get randome and new quote every time you click newquote button and you can share quote on twitter also
 
-to view project:-[link](#).
+to view project:-[link](http:/kmj-007.github.io/Quotedisplayer).
 
 
 
