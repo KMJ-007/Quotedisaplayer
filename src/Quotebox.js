@@ -37,7 +37,7 @@ export default class Quotebox extends Component {
     //when user click the share button this function edit the url and open in the new tab lf window
     sharequote=()=>{
     
-        const link='twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+        const link='https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
             encodeURIComponent('"' + this.state.quote + '" -' + this.state.author)
            
             //opens link in new tab
@@ -57,10 +57,10 @@ export default class Quotebox extends Component {
             <h3 id="author" className='quote-author '>- {this.state.author}
             </h3>
             <div className='buttons'>
-            <a id="tweet-quote" type='button' className='btn btn-default button' href={this.sharequote.bind(this)}> <FontAwesomeIcon icon={faTwitter} fixedWidth  />
+            <button id="tweet-quote" type='button' className='btn btn-default button' onClick={this.sharequote.bind(this)}> <FontAwesomeIcon icon={faTwitter} fixedWidth  />
             
-            </a>
-        <a id="new-quote" type='button' className='btn btn-default button' href={this.newquote.bind(this)}>New Qutote</a>
+            </button>
+        <button id="new-quote" type='button' className='btn btn-default button' onClick={this.newquote.bind(this)}>New Qutote</button>
 
             </div>
         
