@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Quotedisaplayer/static/css/main.6502f497.css",
-    "main.js": "/Quotedisaplayer/static/js/main.0b905ffa.js",
-    "index.html": "/Quotedisaplayer/index.html",
-    "main.6502f497.css.map": "/Quotedisaplayer/static/css/main.6502f497.css.map",
-    "main.0b905ffa.js.map": "/Quotedisaplayer/static/js/main.0b905ffa.js.map"
+    "main.css": "/Quotemachine/static/css/main.6502f497.css",
+    "main.js": "/Quotemachine/static/js/main.0b905ffa.js",
+    "index.html": "/Quotemachine/index.html",
+    "main.6502f497.css.map": "/Quotemachine/static/css/main.6502f497.css.map",
+    "main.0b905ffa.js.map": "/Quotemachine/static/js/main.0b905ffa.js.map"
   },
   "entrypoints": [
     "static/css/main.6502f497.css",
