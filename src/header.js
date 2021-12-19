@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <div>
-            <h1 className='header-title'>Quote Genrator</h1>
+            <h1 className='header-title'>Quote Generator</h1>
         </div>
     )
 }

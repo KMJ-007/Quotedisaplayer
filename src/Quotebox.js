@@ -60,7 +60,7 @@ export default class Quotebox extends Component {
             <button id="tweet-quote" type='button' className='btn btn-default button' onClick={this.sharequote.bind(this)}> <FontAwesomeIcon icon={faTwitter} fixedWidth  />
             
             </button>
-        <button id="new-quote" type='button' className='btn btn-default button' onClick={this.newquote.bind(this)}>New Qutote</button>
+        <button id="new-quote" type='button' className='btn btn-default button' onClick={this.newquote.bind(this)}>New Quote</button>
 
             </div>
         
@@ -73,7 +73,7 @@ let colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', 
 //array of quotes and authors
 let quotes=[
     {
-        "quote": "Never satisfy by yourself.",
+        "quote": "Never be satisfied by yourself.",
         "author": "Karan Janthe",
         "profession": "polymath",
         "topics": [
