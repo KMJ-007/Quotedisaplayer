@@ -35,17 +35,17 @@ export default class Quotebox extends Component {
 
     }//end of newquotefunction
     //when user click the share button this function edit the url and open in the new tab lf window
-    sharequote=()=>{
+    // sharequote=()=>{
     
-        const link='https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
-            encodeURIComponent('"' + this.state.quote + '" -' + this.state.author)
+    //     const link='https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+    //         encodeURIComponent('"' + this.state.quote + '" -' + this.state.author)
            
-            //opens link in new tab
-            window.open(link);
-            // console.log(link)
+    //         //opens link in new tab
+    //         return link;
+    //         console.log(link)
           
 
-    }//end of share quote function
+    // }//end of share quote function
     
     render() {
         return (
@@ -57,10 +57,10 @@ export default class Quotebox extends Component {
             <h3 id="author" className='quote-author '>- {this.state.author}
             </h3>
             <div className='buttons'>
-            <button id="tweet-quote" type='button' className='btn btn-default button' onClick={this.sharequote.bind(this)}> <FontAwesomeIcon icon={faTwitter} fixedWidth  />
+            <a id="tweet-quote" type='button' className='btn btn-default button' href={'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +encodeURIComponent('"' + this.state.quote + '" -' + this.state.author)} target="_blank" rel="noreferrer noopener"> <FontAwesomeIcon icon={faTwitter} fixedWidth  />
             
-            </button>
-        <button id="new-quote" type='button' className='btn btn-default button' onClick={this.newquote.bind(this)}>New Quote</button>
+            </a>
+        <a id="new-quote" type='button' className='btn btn-default button' onClick={this.newquote.bind(this)}>New Quote</a>
 
             </div>
         
