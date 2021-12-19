@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Quotemachine/static/css/main.6502f497.css",
-    "main.js": "/Quotemachine/static/js/main.0b905ffa.js",
+    "main.js": "/Quotemachine/static/js/main.2f1ea146.js",
     "index.html": "/Quotemachine/index.html",
     "main.6502f497.css.map": "/Quotemachine/static/css/main.6502f497.css.map",
-    "main.0b905ffa.js.map": "/Quotemachine/static/js/main.0b905ffa.js.map"
+    "main.2f1ea146.js.map": "/Quotemachine/static/js/main.2f1ea146.js.map"
   },
   "entrypoints": [
     "static/css/main.6502f497.css",
-    "static/js/main.0b905ffa.js"
+    "static/js/main.2f1ea146.js"
   ]
 }
