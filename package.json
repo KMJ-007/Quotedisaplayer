@@ -1,6 +1,6 @@
 {
   "homepage": "http:/kmj-007.github.io/Quotemachine",
-  "name": "Quotedisplayer",
+  "name": "quotedisplayer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
